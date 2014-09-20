@@ -1,0 +1,5 @@
+CD PUB
+THAIST
+STAT2
+THAIST /u
+CD ..
