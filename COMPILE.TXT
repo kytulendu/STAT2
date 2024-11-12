@@ -1,3 +1,13 @@
+Compile Instructions
+====================
+
+1. Run FoxPro 2.6 for DOS, must have Distribution Kit installed.
+2. Open STAT2.PJX project.
+3. Build the application.
+
+Old Compile Instructions
+========================
+
 ในการจะ compile โปรแกรมใหม่ให้ดำเนินขั้นตอนต่อไปนี้
     1. เข้าโปรแกรม FoxPro for DOS โดยที่จะต้องมี Distribution kit อยู่ด้วย และใช้คำสั่ง SET DEFA TO \STAT2 เพื่อให้อยู่ใน directory ชื่อ STAT2
     2. ใช้คำสั่ง MODI PROJ STAT2
