@@ -20,14 +20,14 @@ SET RESOURCE OFF
 #DEFINE UpArrow 5
 #DEFINE LeftArrow 19
 PUBLIC Atrscreen,Atrbackgr,Atrdata,Atrmenu,Atrmenu2
-STORE '\pub\' TO patientdir,codedir
+STORE '\stat2\pub\' TO patientdir,codedir
 STORE '' TO tempdir,workstation,backup,admit,thaicard,person_id,;
 prescription,notprintrx,wellbaby,notque,backupdrive,dbfuse,;
 notstatadmit, isdir
-STORE '\ipd\' TO ipddir
-STORE '\opd\' TO opddir
-STORE '\pharm\' TO pharmdir
-STORE '\billing\' TO billdir
+STORE '\stat2\ipd\' TO ipddir
+STORE '\stat2\opd\' TO opddir
+STORE '\stat2\pharm\' TO pharmdir
+STORE '\stat2\billing\' TO billdir
 STORE .F. TO printpx, nottoque
 *youngright	=	'71,81'
 *poorright	=	'72,82'

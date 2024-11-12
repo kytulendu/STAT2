@@ -8,12 +8,12 @@ DO StartSet
 #DEFINE UpArrow 5
 #DEFINE LeftArrow 19
 PUBLIC Atrscreen,Atrbackgr,Atrdata,Atrmenu,Atrmenu2
-STORE '\pub\' TO patientdir,codedir
+STORE '\stat2\pub\' TO patientdir,codedir
 STOR '' TO tempdir,workstation,backup,admit,thaicard,person_id,;
 prescription,notprintrx,wellbaby,notkeyword,backupdrive,dbfuse,notstatadmit
-STORE '\ipd\' TO ipddir
-STORE '\opd\' TO opddir
-STORE '\pharm\' TO pharmdir
+STORE '\stat2\ipd\' TO ipddir
+STORE '\stat2\opd\' TO opddir
+STORE '\stat2\pharm\' TO pharmdir
 ON error DO err WITH ERROR(),MESSAGE(),LINENO(),PROGRAM(),PROGRAM(2),PROGRAM(3),;
 PROGRAM(4),PROGRAM(5),PROGRAM(6),PROGRAM(7),PROGRAM(8),PROGRAM(9)
 DIME ProvArr(60)
